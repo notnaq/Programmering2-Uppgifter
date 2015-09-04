@@ -11,7 +11,7 @@
 
 # Given ett antal bananer, skriv en funktion som returnerar en textsträng med
 # formen "Apan har <count> bananer", där "<count>" är värdet av den givna
-# variabeln "count". Om antalet är fler än 10 så ska textsträngen "Apan har
+# variabeln "count". Om antalet är 10 eller fler så ska textsträngen "Apan har
 # många bananer" returneras istället.
 def bananas(count):
     # skriv din egen kod här
