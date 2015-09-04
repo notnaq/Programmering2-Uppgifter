@@ -1,0 +1,64 @@
+#!/usr/bin/python -tt
+#
+# Uppgift 1
+# ---------
+#
+# Fyll i funktionerna nedan med din egen kod för att lösa varje givet problem.
+#
+
+####
+# Textsträngar
+
+# Given ett antal bananer, skriv en funktion som returnerar en textsträng med
+# formen "Apan har <count> bananer", där "<count>" är värdet av den givna
+# variabeln "antal". Om antalet är fler än 10 så ska textsträngen "Apan har
+# många bananer" returneras istället.
+def bananas(count):
+    # skriv din egen kod här
+    return
+
+# Given en textsträng, skriv en funktion returnerar de två första och två sista
+# tecknen i ursprungssträngen. Om strängen är kortare än 2 tecken returnera istället
+# en tom sträng.
+def both_ends(s):
+    # skriv din kod här
+    return
+
+####
+# Listor
+
+# Given en lista med strängar, returnera antalet strängar som är längre än 2 tecken.
+def match_ends(words):
+    # skriv din kod här
+    return
+
+####
+# Följande kod används för att testa dina lösningar för att se
+# om dina lösningar på ovanstående problem är korrekta eller inte.
+
+def test(got, expected):
+    if got == expected:
+        prefix = ' OK '
+    else:
+        prefix = '  X '
+    print(%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+
+def main():
+    print("bananas")
+    test(bananas(2), "Apan har 2 bananer")
+    test(bananas(4), "Apan har 4 bananer")
+    test(bananas(10), "Apan har många bananer")
+    test(bananas(99), "Apan har många bananer")
+    print("")
+    print("both_ends")
+    test(both_ends("Hello, World"), "Held")
+    test(both_ends("Hello"), "Helo")
+    test(both_ends("a"), "")
+    test(both_ends("xyz"), "xyyz")
+    print("")
+    print("match_ends")
+    test(match_ends(['aba', 'xyz', 'aa', 'x', 'bbb']), 3)
+    test(match_ends(['', 'x', 'xy', 'xyx', 'xx']), 1)
+
+if __name__ == '__main__':
+  main()
