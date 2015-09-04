@@ -28,7 +28,7 @@ def both_ends(s):
 # Listor
 
 # Given en lista med strängar, returnera antalet strängar som är längre än 2 tecken.
-def match_ends(words):
+def match_lengths(words):
     # skriv din kod här
     return
 
@@ -56,9 +56,9 @@ def main():
     test(both_ends("a"), "")
     test(both_ends("xyz"), "xyyz")
     print("")
-    print("match_ends")
-    test(match_ends(['aba', 'xyz', 'aa', 'x', 'bbb']), 3)
-    test(match_ends(['', 'x', 'xy', 'xyx', 'xx']), 1)
+    print("match_lengths")
+    test(match_lengths(['aba', 'xyz', 'aa', 'x', 'bbb']), 3)
+    test(match_lengths(['', 'x', 'xy', 'xyx', 'xx']), 1)
 
 if __name__ == '__main__':
   main()
