@@ -21,7 +21,7 @@ Gå gärna tillbaka och titta på de tidigare lektionsanteckningarna och de län
 som jag lagt in där. Följande sida kan garanterat vara till hjälp för att lösa
 uppgiften:
 
-- [The Pythonj Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
 ## Inlämningsprocedur
 
